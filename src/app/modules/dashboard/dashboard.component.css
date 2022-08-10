@@ -1,0 +1,28 @@
+.card{
+    background-color:blueviolet;
+    font: white;
+    margin-top: 15px;
+    border : 1px solid blueviolet;
+    width : 550px;
+    padding: 15px;
+    position : absolute;
+    top: 7%;
+    left: 30%;
+}
+.text-center{
+
+    color: yellow;
+}
+.mb-3{
+    color: white;
+    font-weight: bold;
+    
+}
+
+.form-text
+{
+     color:black;
+}
+a{
+    color:antiquewhite;
+}

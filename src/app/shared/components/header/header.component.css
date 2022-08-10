@@ -1,0 +1,15 @@
+.background_image{
+    /* background: url('../../../../assets/images/dreamstime_l_7871997.jpg'); */
+    height: 100%;
+  /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+.nav_item_tranaparency_effects{
+    margin-top: -25px;
+    background-color: #4285f49c !important;
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+

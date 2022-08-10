@@ -1,0 +1,24 @@
+<div class="container-flex" style="overflow: scroll;height: 400px;">
+  <div class="row">
+           <div style="width: 100%;">
+             <table id="tableSortExample" mdbTable  mdbTableScroll scrollY="true" maxHeight="400" maxWidth="800"   class="table-scroll z-depth-1 table table-striped table-hover ">  
+                  <tbody >
+                      <tr *ngFor="let employee of employeeList" style="cursor: pointer;">
+                          <td class="align">{{ employee.id }}</td>
+                          <td class="align">{{ employee.name }}</td>
+                          <td class="align">{{ employee.company }}</td>
+                          <td class="align">{{ employee.designation }}</td>
+                          <td class="align">{{ employee.company_logo }}</td>
+                          <td class="align"><img [src]="employee.company_logo" width="50" height="60" class="img-fluid img-thumbnail" alt="Sheep" (click)="openModal('custom-modal-1',employee.id)"/></td>
+                      </tr>
+                    </tbody>
+             </table>
+           </div>
+  </div> 
+<jw-modal id="custom-modal-1">
+   
+</jw-modal>
+
+
+
+  
